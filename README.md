@@ -31,7 +31,9 @@ The text don't moves
 Actual results
 ------------------
 
-When the text field becomes the first responder the text moves up a few pixels
+When the text field becomes the first responder the text moves up a few pixels:
+
+![UITextFieldBug.gif](UITextFieldBug.gif)
 
 Workaround
 ------------------
