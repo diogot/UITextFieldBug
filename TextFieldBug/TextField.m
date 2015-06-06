@@ -15,7 +15,7 @@
     if (UIDevice.currentDevice.systemVersion.integerValue != 8) return [self textRectForBounds:bounds];
 
     CGFloat const scale = UIScreen.mainScreen.scale;
-    CGFloat const preferred = [self.text sizeWithAttributes:self.defaultTextAttributes].height;
+    CGFloat const preferred = self.attributedText.size.height;
     CGFloat const delta = ceil(preferred) - preferred;
     CGFloat const adjustment = floor(delta * scale) / scale;
 
