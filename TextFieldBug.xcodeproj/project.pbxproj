@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB223B921B2343E30099A859 /* TextField.m in Sources */ = {isa = PBXBuildFile; fileRef = CB223B911B2343E30099A859 /* TextField.m */; };
 		D9631B971A5AC3E900B68207 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9631B961A5AC3E900B68207 /* main.m */; };
 		D9631B9A1A5AC3E900B68207 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9631B991A5AC3E900B68207 /* AppDelegate.m */; };
 		D9631B9D1A5AC3E900B68207 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9631B9C1A5AC3E900B68207 /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB223B901B2343E30099A859 /* TextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextField.h; sourceTree = "<group>"; };
+		CB223B911B2343E30099A859 /* TextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextField.m; sourceTree = "<group>"; };
 		D9631B911A5AC3E900B68207 /* TextFieldBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextFieldBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9631B951A5AC3E900B68207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9631B961A5AC3E900B68207 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -85,6 +88,8 @@
 				D9631B991A5AC3E900B68207 /* AppDelegate.m */,
 				D9631B9B1A5AC3E900B68207 /* ViewController.h */,
 				D9631B9C1A5AC3E900B68207 /* ViewController.m */,
+				CB223B901B2343E30099A859 /* TextField.h */,
+				CB223B911B2343E30099A859 /* TextField.m */,
 				D9631B9E1A5AC3E900B68207 /* Main.storyboard */,
 				D9631BA11A5AC3E900B68207 /* Images.xcassets */,
 				D9631BA31A5AC3E900B68207 /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 				D9631B9D1A5AC3E900B68207 /* ViewController.m in Sources */,
 				D9631B9A1A5AC3E900B68207 /* AppDelegate.m in Sources */,
 				D9631B971A5AC3E900B68207 /* main.m in Sources */,
+				CB223B921B2343E30099A859 /* TextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
