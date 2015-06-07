@@ -17,7 +17,7 @@
     CGFloat const scale = UIScreen.mainScreen.scale;
     CGFloat const preferred = self.attributedText.size.height;
     CGFloat const delta = ceil(preferred) - preferred;
-    CGFloat const adjustment = floor(delta * scale) / scale;
+    CGFloat const adjustment = MIN(1, floor(delta * scale)) / scale;
 
     CGRect const textRect = [self textRectForBounds:bounds];
     CGRect const editingRect = CGRectOffset(textRect, 0.0, adjustment);
